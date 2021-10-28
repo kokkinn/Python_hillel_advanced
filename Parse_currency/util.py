@@ -6,5 +6,3 @@ def f1nd(currency):
         if i['code'] == currency:
             return str(i['rate'])
 
-# print(type(f1nd('UAH')))
-
