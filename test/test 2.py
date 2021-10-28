@@ -1,5 +1,5 @@
 def get_avg_data():
-    file = open("hw-1.csv", encoding="UTF8")
+    file = open("../Flask_1/hw-1.csv", encoding="UTF8")
     next(file)
     weight = 0
     height = 0
