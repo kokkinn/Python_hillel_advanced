@@ -16,7 +16,7 @@ def reqs():
 
 @qw.route("/avr_data")
 def get_avg_data():
-    file = open("hw-1.csv", encoding="UTF8")
+    file = open("hw-1.csv", "r", encoding="UTF8")
     next(file)
     weight = 0
     height = 0
