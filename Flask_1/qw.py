@@ -29,7 +29,7 @@ def get_avg_data():
         height += b[1]
     file.close()
     return (f"<h1>The average weight is {round(weight / count * 0.45359237, 1)} kg \
-            <br>The average height is {round((height / count * 2.54), 1)} cm<h1>")
+            <br>The average height is {round((height / count * 2.54), 1)} cm</h1>")
 
 
 @qw.route("/get_random_students")
