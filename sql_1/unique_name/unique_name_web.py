@@ -13,6 +13,4 @@ def qe():
     return rec2html(record)
 
 
-
-
 app.run(debug=True)

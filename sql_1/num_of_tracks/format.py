@@ -1,2 +1,2 @@
 def formatt(param):
-    return str(param[0][0])
+    return '<h1>' + str(param[0][0]) + '</h1>'
