@@ -8,7 +8,7 @@ def form7t(tracks_tbl, genres_tbl):
                 else:
                     dic1[genres_tbl[genid - 1][1]] += tuplee[1]
     for key, value in dic1.items():
-        dic1[key] = str(round(dic1[key] / 1000))
+        dic1[key] = str(round(dic1[key] / 10000))
     x = '<br>'.join(' '.join((key, val)) for (key, val) in dic1.items())
     return x
 
