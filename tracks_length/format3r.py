@@ -14,8 +14,6 @@ def form7t2(tracks_tbl, genres_tbl):                    #первый спосо
         dic1[key] = str(round(dic1[key] / 1000))
     x = '<br>'.join(' '.join((key, val)) for (key, val) in dic1.items())
     return x
-
-
 def form7t(genre_tab):
     dic1 = {}                                       #тут - как вы посоветовали
     summ = 0
