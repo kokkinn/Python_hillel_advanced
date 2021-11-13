@@ -2,8 +2,8 @@ from flask import Flask
 from webargs import fields
 from webargs.flaskparser import use_kwargs
 
-from QWER.conn import execute_query
-from QWER.mostsell_buis import formatR
+from Flask_homeWRK_7.conn import execute_query
+from Flask_homeWRK_7.mostsell_buis import formatR
 
 app = Flask(__name__)
 
