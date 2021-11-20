@@ -1,12 +1,5 @@
-# from flask_hmWRK_6_trckLength.trc_ln_buis import execute_query
-#
-# sql1 = execute_query("select Trackid, Name from tracks")
-# sql2 = execute_query("select trackid, unitprice, quantity from invoice_items")
-# num = 4
-#
-
 def formatR(qry1, qry2, num=None):
-    qry2.sort(key=lambda x: x[2])
+    qry2.sort(key=lambda zx: zx[2])
     a = 0
     qry2 = qry2[:num]
 
@@ -23,5 +16,5 @@ def formatR(qry1, qry2, num=None):
         f[2] = f[2]
         a += 1
 
-    x = "<br>".join(map(lambda x: str(x[0]) + ' ' + str(x[1]) + " " + str(x[2]), qr))
+    x = "<br>".join(map(lambda y: str(y[0]) + ' ' + str(y[1]) + " " + str(y[2]), qr))
     return x
