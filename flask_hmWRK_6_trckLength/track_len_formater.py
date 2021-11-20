@@ -1,4 +1,4 @@
-from flask_hmWRK_6_trckLength.trc_ln_buis import execute_query
+from flask_hmWRK_6_trckLength.trc_len_con import execute_query
 
 
 def form7t2(tracks_tbl, genres_tbl):  # первый способ, с двумя запросами, все полностью сырое
