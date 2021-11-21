@@ -1,7 +1,7 @@
 from flask import Flask
 
-from tracks_length.format3r import form7t
-from tracks_length.trc_ln_buis import execute_query
+from flask_hmWRK_6_trckLength.track_len_formater import form7t
+from flask_hmWRK_6_trckLength.trc_len_con import execute_query
 
 app = Flask(__name__)
 

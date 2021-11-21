@@ -1,7 +1,7 @@
-from tracks_length.trc_ln_buis import execute_query
+from flask_hmWRK_6_trckLength.trc_len_con import execute_query
 
 
-def form7t2(tracks_tbl, genres_tbl):                    #первый способ, с двумя запросами, все полностью сырое
+def form7t2(tracks_tbl, genres_tbl):  # первый способ, с двумя запросами, все полностью сырое
     dic1 = {}
     for genid in range(1, len(genres_tbl) + 1):
         for tuplee in tracks_tbl:
@@ -14,8 +14,10 @@ def form7t2(tracks_tbl, genres_tbl):                    #первый спосо
         dic1[key] = str(round(dic1[key] / 1000))
     x = '<br>'.join(' '.join((key, val)) for (key, val) in dic1.items())
     return x
+
+
 def form7t(genre_tab):
-    dic1 = {}                                       #тут - как вы посоветовали
+    dic1 = {}  # тут - как вы посоветовали
     summ = 0
     for i in genre_tab:
         dic1[i[1]] = 0
