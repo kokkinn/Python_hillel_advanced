@@ -14,9 +14,9 @@ class Point:
         return str(self.x) + " " + str(self.y)
 
 
-p1 = Point(4, 5)
-p2 = Point(3, 6)
-p3 = Point(2, 4)
+p1 = Point(4, 2)
+p2 = Point(3, 1)
+p3 = Point(2, 2)
 
 
 class Triangle:
