@@ -26,7 +26,7 @@ class Circle(Shape):
 po1 = Point(0, 0)
 po2 = Point(1, 1)
 Circle1 = Circle(2, 2, 5)
-Circle2 = Circle(10, 10, 3)
+Circle2 = Circle(10, 11, 3)
 print(Circle1.contains(po1))
 print(po2 in Circle2)
 print(po1 in Circle1)
